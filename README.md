@@ -1,4 +1,4 @@
-# Project-2023
+ses# Project-2023
 
 **Estudiantes:**
 
@@ -28,3 +28,5 @@ El juego utiliza glut y aplay. En caso de que no lo pueda ejecutar, instale las 
 ```bash
 sudo apt-get install freeglut3 libasound2
 ```
+
+**Tutoriales:** [Español](Tutorial.es.md) [Inglés](Tutorial.en.md)
