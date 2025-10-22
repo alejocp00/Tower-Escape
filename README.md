@@ -26,5 +26,9 @@
 El juego utiliza glut y aplay. En caso de que no lo pueda ejecutar, instale las dependencias con:
 
 ```bash
+# Linux
 sudo apt-get install freeglut3 libasound2
+
+# Windows (usando MSYS2)
+pacman -S mingw-w64-x86_64-freeglut
 ```
