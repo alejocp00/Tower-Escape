@@ -32,3 +32,5 @@ sudo apt-get install freeglut3 libasound2
 # Windows (usando MSYS2)
 pacman -S mingw-w64-x86_64-freeglut
 ```
+
+**Tutoriales:** [Español](Tutorial.es.md) [Inglés](Tutorial.en.md)
