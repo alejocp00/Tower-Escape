@@ -41,7 +41,7 @@ library
       Paths_Tower_Escape
   hs-source-dirs:
       src
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -optl-mwindows
   build-depends:
       GLUT
     , JuicyPixels
@@ -54,13 +54,13 @@ library
     , yaml
   default-language: Haskell2010
 
-executable Tower-Escape-exe
+executable Tower-Escape
   main-is: Main.hs
   other-modules:
       Paths_Tower_Escape
   hs-source-dirs:
       app
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -optl-mwindows -threaded -rtsopts -with-rtsopts=-N -optl-mwindows
   build-depends:
       GLUT
     , JuicyPixels
@@ -81,7 +81,7 @@ test-suite Tower-Escape-test
       Paths_Tower_Escape
   hs-source-dirs:
       test
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -optl-mwindows -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       GLUT
     , JuicyPixels

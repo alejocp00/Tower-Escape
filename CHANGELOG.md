@@ -1,10 +1,24 @@
-# Changelog for `Project2023`
+# Changelog for `Tower-Escape`
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to the
 [Haskell Package Versioning Policy](https://pvp.haskell.org/).
+
+## Released
+
+## 1.0.1.0 - 2025-10-22
+
+### Features
+
+- Added Windows support
+
+### ToDo
+
+- Fix the bug that allows the user to interact with main menu buttons just after death
+- Hide debug options in main menu for the final release
+- Make projectiles ignore frozen enemies
 
 ## Unreleased
 
